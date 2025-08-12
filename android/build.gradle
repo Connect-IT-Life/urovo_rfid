@@ -54,7 +54,9 @@ android {
         testImplementation("org.jetbrains.kotlin:kotlin-test")
         testImplementation("org.mockito:mockito-core:5.0.0")
         implementation files('libs/platform_sdk_v3.1.221124.jar')
-        implementation(name: 'URFIDLibrary-v2.4.0125', ext: 'aar')
+        implementation files('libs/URFIDLibrary-v2.4.0125.aar')
+//        implementation(name: 'URFIDLibrary-v2.4.0125', ext: 'aar')
+
         implementation 'com.google.code.gson:gson:2.10.1'
     }
 
